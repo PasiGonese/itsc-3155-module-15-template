@@ -17,6 +17,7 @@ debugpy==1.6.3
 decorator==5.1.1
 defusedxml==0.7.1
 entrypoints==0.4
+exceptiongroup==1.0.4
 executing==1.2.0
 fastjsonschema==2.16.2
 Flask==2.2.2
@@ -25,6 +26,7 @@ fonttools==4.38.0
 greenlet==2.0.1
 gunicorn==20.1.0
 idna==3.4
+iniconfig==1.1.1
 ipython-genutils==0.2.0
 itsdangerous==2.1.2
 jedi==0.18.1
@@ -52,6 +54,7 @@ parso==0.8.3
 pickleshare==0.7.5
 Pillow==9.3.0
 platformdirs==2.5.4
+pluggy==1.0.0
 prometheus-client==0.15.0
 prompt-toolkit==3.0.32
 psutil==5.9.4
@@ -61,9 +64,12 @@ pycparser==2.21
 Pygments==2.13.0
 pyparsing==3.0.9
 pyrsistent==0.19.2
+pytest==7.2.0
 python-dateutil==2.8.2
 python-dotenv==0.21.0
 pytz==2022.2.1
+pywin32==305
+pywinpty==2.0.9
 pyzmq==24.0.1
 QtPy==2.3.0
 requests==2.28.1
