@@ -12,5 +12,5 @@ def test_get_all_movies(test_app: FlaskClient):
 
         assert res.status_code == 200
         assert f'<td><a href="/movies/{test_movie.movie_id }">The Dark Knight Rises</a></td>' in page_data
-        assert f'<td>Christoper Nolan1</td>' in page_data
+        assert f'<td>Christoper Nolan</td>' in page_data
         assert f' <td>5</td>' in page_data
